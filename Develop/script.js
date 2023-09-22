@@ -1,4 +1,5 @@
 // Assignment Code
+// Variables for characters
 var generateBtn = document.querySelector("#generate");
 var charLowercase = "abcdefghijklmnopqrstuvwxyz";
 var charUpperCase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
@@ -12,7 +13,7 @@ function generatePassword() {
     alert("Invalid password length. Please enter a number between 8 and 124.");
     return "";
   }
-
+// variables for prompts
   var includeLowercase = confirm("Include lowercase letters?");
   var includeUppercase = confirm("Include uppercase letters?");
   var includeSpecialChars = confirm("Include special characters?");
